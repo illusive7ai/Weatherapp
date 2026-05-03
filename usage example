@@ -1,0 +1,21 @@
+# Basic weather check
+python weatherapp.py London
+
+# Interactive mode (recommended)
+python weatherapp.py --interactive
+
+# Generate temperature graph
+python weatherapp.py "New York" --graph
+
+# Compare cities
+python weatherapp.py --compare London Paris Tokyo
+
+# Manage favorites
+python weatherapp.py --add-favorite Tokyo
+python weatherapp.py --favorites
+
+# Export data
+python weatherapp.py London --export weather_data.json
+
+# Search history
+python weatherapp.py --history
